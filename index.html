@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="login2.css">
+</head>
+<body>
+    <div class="login-wrapper">
+        <h2>Login</h2>
+        <form method="post" action="서버의url" id="login-form">
+            <input type="text" name="userName" placeholder="Email">
+            <input type="password" name="userPassword" placeholder="Password">
+            <label for="remember-check">
+                <input type="checkbox" id="remember-check">아이디 저장하기
+            </label>
+            <input type="submit" value="Login">
+        </form>
+        
+        <div class="divider">
+            <span>or</span>
+        </div>
+
+        <div class="social-login">
+            <button class="facebook">Facebook</button>
+            <button class="google">Google</button>
+            <button class="github">GitHub</button>
+            <button class="linkedin">LinkedIn</button>
+        </div>
+    </div>
+
+
+</body>
+</html>
